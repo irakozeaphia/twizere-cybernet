@@ -1,0 +1,92 @@
+<html>
+<head>
+<title>Report Cyber Fraud</title>
+<style>
+body{
+background-color:lightyellow;
+font-family:Arial;
+align:center;
+}
+
+table{
+border-collapse:collapse;
+align:center;
+}
+
+td,th{
+border:1px solid black;
+padding:10px;
+align:center;
+}
+
+.table9{
+width:100%;
+background-color:lightblue;
+text-align:center;
+margin-bottom:20px;
+}
+
+.formtable{
+margin:auto;
+background-color:white;
+width:50%;
+}
+.link{
+text-align=center;
+}
+
+</style>
+
+
+<head>
+<body>
+<table class="table9">
+<tr>
+<td>
+<h1>Report Cyber Fraud</h1>
+<p>Help us fight cybercrime in Rwanda</p>
+</td>
+</tr>
+</table>
+<br>
+<table class="formtable">
+ <tr>
+<td>
+<form>
+<label>Full name:</label>
+<input type="text"><br><br>
+<label>Email adress:</label>
+<input type="email"><br><br>
+<label>phone number:</label>
+<input type="number"><br><br>
+<label>Type of issue:</label><br>
+<select>
+<option>phishing</option>
+<option>fake sms</option>
+<option>fraud</option>
+<option>other</option>
+</select><br><br>
+<label>DESCRIPTION:</label><br>
+<textarea rows="10" cols="50"></textarea><br><br>
+<label>Date</label><br>
+<input type="date"><br><br>
+
+<button type="submit" onclick="document.getElementById('message').innerHTML='Your report has been submitted successfully';">report now</button>
+<p id="message"></p>
+
+</form>
+</td>
+
+</tr>
+</table>
+
+<br>
+<div class="link">
+
+ <a href="index.html">Back to Home</a>
+</div>
+
+</body>
+</html>
+
+
