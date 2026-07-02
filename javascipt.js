@@ -1,6 +1,3 @@
-// ===============================
-// Twizere CyberNet - script.js
-// ===============================
 
 // Welcome message (Home Page)
 let welcome = document.getElementById("welcome");
@@ -9,10 +6,7 @@ if (welcome) {
     welcome.innerHTML = "Welcome to Twizere CyberNet! Stay safe online.";
 }
 
-
-// ===============================
 // Report Page
-// ===============================
 
 let reportBtn = document.getElementById("reportBtn");
 
@@ -28,9 +22,7 @@ if (reportBtn) {
 }
 
 
-// ===============================
 // Detector Page
-// ===============================
 
 let scanBtn = document.getElementById("scanBtn");
 
@@ -66,9 +58,7 @@ if (scanBtn) {
 }
 
 
-// ===============================
 // Lesson Page
-// ===============================
 
 let lessonBtn = document.getElementById("lessonBtn");
 
