@@ -1,6 +1,11 @@
 body{
     font-family: Arial, sans-serif;
     margin: 20px;
+     background-image: url("image for webpages.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 table{
@@ -27,40 +32,35 @@ ul{
 
 /* Page colors */
 .table1,.table10,.table15,.table9{
-    background-color:lightblue;
+    background-color: rgba(173, 216, 230, 0.85);
 }
 
-.table2{background-color:beige;}
-.table3{background-color:lightgreen;}
-.table4{background-color:lavender;}
-.table5{background-color:lightyellow;}
-.table6{background-color:honeydew;}
-.table7,.table8{background-color:mistyrose;}
+.table2{background-color:rgba(245, 245, 220, 0.85);}
+.table3{background-color:rgba(144, 238, 144, 0.85);}
+.table7,.table8,.table18{background-color:rgba(255, 228, 225, 0.85);}
 
 .table11,.table16{
-    background:white;
+    background:rgba(255, 255, 255, 0.85);
 }
 
-.table12,.table17{
-    background:lightyellow;
+.table12,.table17,.table5{
+    background:rgba(255, 255, 224, 0.85);
 }
 
-.table13{
-    background:lavender;
+.table13,.table4{
+    background: rgba(230, 230, 250, 0.85);
 }
 
-.table14,.table19{
-    background:honeydew;
+.table14,.table19,.table6{
+    background:rgba(240, 255, 240, 0.85);
 }
 
-.table18{
-    background:mistyrose;
-}
+
 
 .formtable{
     width:50%;
     margin:auto;
-    background:white;
+    background:rgba(255, 255, 255, 0.85);
 }
 
 .link{
