@@ -31,31 +31,9 @@ ul{
 }
 
 /* Page colors */
-.table1,.table10,.table15,.table9{
-    background-color: rgba(173, 216, 230, 0.85);
+table{
+    background-color:rgba(255, 228, 225, 0.85);
 }
-
-.table2{background-color:rgba(245, 245, 220, 0.85);}
-.table3{background-color:rgba(144, 238, 144, 0.85);}
-.table7,.table8,.table18{background-color:rgba(255, 228, 225, 0.85);}
-
-.table11,.table16{
-    background:rgba(255, 255, 255, 0.85);
-}
-
-.table12,.table17,.table5{
-    background:rgba(255, 255, 224, 0.85);
-}
-
-.table13,.table4{
-    background: rgba(230, 230, 250, 0.85);
-}
-
-.table14,.table19,.table6{
-    background:rgba(240, 255, 240, 0.85);
-}
-
-
 
 .formtable{
     width:50%;
